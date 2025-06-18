@@ -98,7 +98,7 @@ body {
   cursor: pointer;
   height: 3.5rem;
   width: 15rem;
-  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
 }
 
 .row .btn:hover {
@@ -177,7 +177,7 @@ body {
 .home {
   min-height: 100vh;
   width: 100vw;
-  background-image: url(../images/img1.jpg);
+  background-image: url(../images/camp/KIDDOHUB25.png);
   background-size: cover;
   display: flex;
   align-items: center;
@@ -195,7 +195,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(55, 55, 55, 0.5);
+  background: rgba(55, 55, 55, 0.7);
   z-index: 1;
 }
 
@@ -380,7 +380,7 @@ body {
 }
 
 .counters {
-  background-image: url(../images/img2.jpg);
+  background-image: url(../images/camp/KIDDOHUB38.png);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -433,7 +433,7 @@ body {
   background: #fff;
   text-align: center;
   padding: 30px 25px;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.07);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.0);
   border-radius: 20px;
   margin-bottom: 30px;
   border: 1px solid rgba(0, 0, 0, 0.07);
@@ -511,7 +511,7 @@ body {
 .communicate {
   text-align: center;
   align-items: center;
-  background-image: url(../images/img3.jpg);
+  background-image: url(../images/camp/chs2.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;

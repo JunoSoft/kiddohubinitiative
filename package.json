@@ -20,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "http-server": "^14.1.1",
+    "mdb-vue-ui-kit": "^6.0.0",
     "prettier": "^3.3.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
