@@ -98,7 +98,7 @@ body {
   cursor: pointer;
   height: 3.5rem;
   width: 15rem;
-  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.3);
 }
 
 .row .btn:hover {
@@ -110,10 +110,14 @@ body {
 
 #contactNow {
   color: black;
+  background-color: #fff;
+  border: solid 1px #00bfff;
 }
 
 #contactNow:hover {
-  color: white;
+  color: #fff;
+  background-color:#002e5f ;
+   border: solid 1px #fff;
 }
 
 .communicate .btn:hover {
