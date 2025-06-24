@@ -1,0 +1,32 @@
+{
+  "name": "kiddohub",
+  "version": "1.0.0",
+  "description": "A website for Huong Hua Co. Ltd. specializing in bathroom solutions",
+  "main": "index.js",
+  "scripts": {
+    "install-deps": "npm install",
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "deploy": "gh-pages -d dist",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JunoSoft/kiddohubinitiative.git"
+  },
+  "author": "Albert",
+  "license": "ISC",
+  "dependencies": {
+    "mdb-vue-ui-kit": "^6.0.0",
+    "prettier": "^3.3.3",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.0",
+    "gh-pages": "^6.3.0"
+  },
+  "bugs": {
+    "url": "https://github.com/JunoSoft/kiddohubinitiative/issues"
+  },
+  "homepage": "."
+}
