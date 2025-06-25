@@ -9,7 +9,8 @@
   text-decoration: none;
 }
 #app{
-  padding: 0px;
+  padding: 0px !important;
+  box-sizing: border-box;
 }
 html {
   font-size: 62.5%;
@@ -18,7 +19,23 @@ html {
 
 body {
   overflow-x: hidden;
+  box-sizing: border-box;
 }
+.accordion-header {
+  cursor: pointer;
+  background: #002e5f;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-body {
+  display: none;
+  background: #f4f4f4;
+  padding: 1rem;
+}
+
 
 .heading,
 .clients .section-header h2,
