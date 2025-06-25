@@ -13,7 +13,32 @@
 
       .gallery img:hover {
         transform: scale(1.05);
-      }</style><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6608388491200814" crossorigin="anonymous"></script><link href="/css/app.814d558c.css" rel="preload" as="style"><link href="/css/chunk-vendors.479684ea.css" rel="preload" as="style"><link href="/js/app.0d897260.js" rel="preload" as="script"><link href="/js/chunk-vendors.92e464bc.js" rel="preload" as="script"><link href="/css/chunk-vendors.479684ea.css" rel="stylesheet"><link href="/css/app.814d558c.css" rel="stylesheet"></head><body><div id="app"></div><script>$(document).ready(function () {
+      }
+
+      .accordion-header {
+  background: #002e5f;
+  color: white;
+  padding: 15px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.accordion-body {
+  background: #f4f4f4;
+  padding: 15px;
+  display: none; /* Hidden by default */
+}
+
+.accordion.active .accordion-body {
+  display: block;
+}
+
+.accordion-container {
+  max-width: 800px;
+  margin: auto;
+}</style><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6608388491200814" crossorigin="anonymous"></script><script>$(document).ready(function () {
         $("a").on("click", function (event) {
           if (this.hash !== "") {
             event.preventDefault();
@@ -29,4 +54,16 @@
             );
           }
         });
-      });</script><script src="/js/chunk-vendors.92e464bc.js"></script><script src="/js/app.0d897260.js"></script></body></html>
+      });</script><script>document.addEventListener("DOMContentLoaded", () => {
+    const accordions = document.querySelectorAll(".accordion-header");
+
+    accordions.forEach(header => {
+      header.addEventListener("click", () => {
+        const parent = header.parentElement;
+        parent.classList.toggle("active");
+
+        const symbol = header.querySelector(".toggle");
+        symbol.textContent = parent.classList.contains("active") ? "−" : "+";
+      });
+    });
+  });</script><link href="/css/app.814d558c.css" rel="preload" as="style"><link href="/css/chunk-vendors.479684ea.css" rel="preload" as="style"><link href="/js/app.204a335a.js" rel="preload" as="script"><link href="/js/chunk-vendors.92e464bc.js" rel="preload" as="script"><link href="/css/chunk-vendors.479684ea.css" rel="stylesheet"><link href="/css/app.814d558c.css" rel="stylesheet"></head><body><div id="app"></div><script src="/js/chunk-vendors.92e464bc.js"></script><script src="/js/app.204a335a.js"></script></body></html>
