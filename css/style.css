@@ -8,7 +8,9 @@
   transition: all 0.2s linear;
   text-decoration: none;
 }
-
+#app{
+  padding: 0px;
+}
 html {
   font-size: 62.5%;
   overflow-x: hidden;
